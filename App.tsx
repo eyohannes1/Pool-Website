@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Star, ShieldCheck, Award, ArrowRight, Droplets, Wrench, Hammer, Phone, Moon, Sun, CheckCircle2, AlertCircle, ChevronRight, Building2 } from 'lucide-react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 
 // --- Reusable UI Components ---
 
@@ -954,6 +955,7 @@ const App = () => {
       </main>
 
       <Footer setCurrentPage={setCurrentPage} />
+      <Analytics />
     </div>
   );
 };
