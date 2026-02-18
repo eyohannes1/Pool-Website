@@ -64,6 +64,9 @@ npm run build
 
 The optimized files will be in the `dist/` directory, ready for deployment to any static hosting service (Vercel, Netlify, GitHub Pages, etc.).
 
+**IMPORTANT:**
+This project requires the `VITE_GOOGLE_MAPS_API_KEY` environment variable to be set in your deployment environment (e.g., Vercel Project Settings) for the Google Maps address autocomplete feature to work correctly.
+
 ---
 
 ## SEO & Accessibility
